@@ -15,7 +15,7 @@
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(<App />);
 
-import React, { StrictMode } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 const App = () => (
@@ -31,3 +31,4 @@ root.render(
     <App />
   </React.StrictMode>
 );
+// "build": "parcel build src/index.html --out-dir=build",
